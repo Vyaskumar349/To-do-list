@@ -41,7 +41,7 @@ const TodoList = () => {
 
   return (
     <div className='Todo-list'>
-         <h1>Todo App</h1> 
+         <h1>Resolutions App</h1> 
         <TodoForm onSubmit={addTodo}/>
         <Todo todos={todos} completeTodo={completeTodo} removeTodo={removeTodo} updateTodo={updateTodo}/>
         </div>
